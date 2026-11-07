@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padashala | Presentation</title>
+    
+    <!-- Reveal.js Core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css" id="theme">
+    
+    <!-- KaTeX for Math Rendering -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.8/katex.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Custom tweaks for classroom readability */
+        .reveal .slides { text-align: left; }
+        .reveal h2 { color: #4338ca; text-transform: none; font-weight: bold; }
+        .teacher-tip { font-size: 0.6em; background: #fffbeb; padding: 10px; border-left: 4px solid #f59e0b; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="reveal">
+        <div class="slides" id="slide-container">
+            <!-- Slides will be injected here dynamically by app.js -->
+            <section>
+                <h2>Loading Class...</h2>
+                <p>Fetching period data.</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/math/math.min.js"></script>
+    
+    <!-- Padashala Viewer Logic -->
+    <script>
+        // Reveal.js initialization is handled inside js/app.js after data is fetched
+        // but we load the libraries here to ensure they are available.
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>
